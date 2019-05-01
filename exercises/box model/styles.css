@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.box-container{
+    box-sizing: border-box;
+    background: slateblue;
+    height: 500pt;
+    width: 500pt;
+
+
+
+}
+.box{
+    display: inline-block;
+    background: tomato;
+    width: 20%;
+    height: 100pt;
+
+}
+.one{
+    background: purple;
+    width: 50%;
+}
+.two{
+    background: skyblue;
+    width: 50%;
+}
+.three{
+    background: blanchedalmond;
+    width: 25%;
+
+}
+.four{
+    background: sienna;
+    
+}

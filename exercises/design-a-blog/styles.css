@@ -1,0 +1,117 @@
+
+
+* {
+    background: rgb(5, 150, 247);
+    
+
+}
+.flex-container {
+    
+    display: flex;
+    width: 100%;
+    height: 80pt;
+    justify-content: space-evenly;
+
+
+    
+
+}
+body {
+  margin:0;
+  
+
+      
+}
+
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(233, 27, 27);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: space-evenly;
+  
+}
+
+.navbar a {
+  background: rgb(233, 27, 27);
+  /* float: left; */
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  
+  width:100pt;
+  margin: 0pt;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.box  {
+    display: block;
+    background: rgb(233, 233, 117);
+    width: 100%;
+    height: 100pt;    
+}
+.one {
+    background: rgb(213, 223, 74);
+    width: 100%;
+    height: 80pt;
+
+}
+
+
+
+
+
+
+.two {
+    background-image: url("https://pbs.twimg.com/media/CvtT0PrXYAMfCbR.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500pt;
+}
+.three{
+    background: black;
+    width: 100%;
+    height: 90pt;
+}
+
+h1 {
+  color: white;
+  justify-content: center;
+}
+
+.four p{
+  margin: 0;
+  background: rgb(233, 233, 117);
+  color: #7163ff;
+  
+
+}
+
+
+
+
+
+ 

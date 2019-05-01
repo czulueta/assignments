@@ -1,0 +1,135 @@
+
+h1 {
+    display:flex;
+    justify-content: center;
+    background: rgb(245, 241, 13);
+    color:rgb(56, 101, 248);
+}
+.myNav {
+    font-size: 20pt;
+    border: solid white;
+    color: whitesmoke;
+    /* display:grid; */
+    /* grid-auto-rows: 1/3 1/3 1/3;
+    grid-auto-columns: 1fr 1fr 1fr; */
+    
+
+}
+.list {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    height:30px;
+    text-align: center;
+    align-items: center;
+    
+    
+
+    
+
+}
+.a{
+    display: grid;
+    
+
+    
+     
+}
+.home{
+    background:red;
+    
+}
+.contact{
+    background:blue;
+}
+.shop{
+    background:plum;
+}
+.boxes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    height:100vh;
+    text-indent: 50px;
+    grid-auto-rows: auto;
+    text-align: center;
+    
+    
+    
+    
+}
+.and{
+    display:grid;
+    padding:1em;
+    grid-auto-rows: auto;
+    
+    
+    
+}
+.one{
+    background:black;
+    grid-column:2/6;
+    grid-row: 1/5;
+    background-image: url(kjv1611-blueBook.jpg);
+    background-repeat: no-repeat;
+    
+    
+    
+    
+    
+
+}
+.two{
+    background: rgb(99, 233, 99);
+    
+
+}
+.at{
+    display: grid;
+    
+    
+    
+}
+.three{
+    background:black;
+    grid-row: 7/1;
+    justify-items: center;
+    
+    
+
+    
+
+}
+img{
+    width: 50%;
+    height: 20%;
+}
+.four{
+    background: red;
+
+}
+.five{
+    background: blueviolet;
+    grid-row:3/5
+
+}
+.six{
+    background: black;
+    grid-column: 7/2;
+    grid-row:7/5;
+    color: antiquewhite;
+    
+    
+}
+@media (min-width: 985px){
+.one{
+    background:black;
+    grid-column:2/6;
+    grid-row: 1/5;
+    background-image: url(kjv1611-blueBook.jpg);
+    background-repeat: no-repeat;
+    background-size: fixed;
+      
+    }
+}
