@@ -1,0 +1,14 @@
+{
+  "name": "rpg_game",
+  "version": "1.0.0",
+  "description": "rpg game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Zulueta",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}

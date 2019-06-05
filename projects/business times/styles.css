@@ -54,10 +54,19 @@ h1 {
     text-indent: 50px;
     grid-auto-rows: auto;
     text-align: center;
+    font-size: 20pt;
     
     
     
     
+}
+.box {
+    background-repeat: no-repeat;
+    height: 940px;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
 }
 .and{
     display:grid;
@@ -123,13 +132,30 @@ img{
     
 }
 @media (min-width: 985px){
-.one{
-    background:black;
-    grid-column:2/6;
-    grid-row: 1/5;
-    background-image: url(kjv1611-blueBook.jpg);
-    background-repeat: no-repeat;
-    background-size: fixed;
+    .one{
+        background:black;
+        grid-column:2/6;
+        grid-row: 1/5;
+        background-image: url(kjv1611-blueBook.jpg);
+        background-repeat: no-repeat;
+        background-size: fixed;
       
+    }
+}
+@media (max-width: 768px){
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        float: none;
+
+    }
+    .six{
+        background: black;
+        grid-column: 7/2;
+        grid-row:2/5;
+        color: antiquewhite;
+        
+        
     }
 }

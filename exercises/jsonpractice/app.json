@@ -1,0 +1,88 @@
+
+
+{
+    "appetizers" : ["mozzerella sticks","cesar's salad", "bbq chicken wings"]
+}
+{
+    "name" : "mozzerella sticks",
+    "ingredients" : ["cheese","bread"],
+    "description" : "the cheesiest"
+}
+{
+    "name" : "cesar's salad",
+    "ingredients" : ["romaine lettuce","crutons","parmesan cheese"],
+    "string description" : "fit for a king"
+}
+{
+    "name" : "bbq chicken wings",
+    "ingredients" : ["natural chicken wings","homemade bbq sauce"],
+    "string description" : "finger licking good"
+}
+{
+    "cold sandwhiches" : ["chicken deluxe","turkey cold cuts","roast beef"],
+}
+{
+    "name" : "chicken deluxe",
+    "ingredients" : ["lettuce","chicken","mayo"],
+    "string description" : "meemee time!!!"
+}
+{
+    "name" : "turkey cold cuts",
+    "ingredients" : ["turkey","lettuce","mayo"],
+    "string description" : "tasty"
+}
+{
+    "name" : "roast beef",
+    "ingriedents" : ["roast beef","mayo","toasted bread"],
+    "string description" : "hits the spot"
+}
+{
+    "hot sandwhiches" : ["cheeseburgers", "philly cheese steak", "grilled cheese"]
+}
+{
+    "name" : "cheeseburgers",
+    "ingredients" : ["cheese", "beef patty", "secret sauce"],
+    "string description" : "juicy"
+}
+{
+    "desserts" : ["coffee cake", "bananna split", "cheese cake"]
+}
+{
+    "name" : "coffee cake",
+    "ingredients" : ["cinnamon", "streusel topping", "flour", "eggs"],
+    "string description" : "the best"
+}
+{
+    "name" : "bananna split",
+    "ingredients" : ["bananna", "vanilla ice cream", "chocolate ice cream", "strawberry ice cream", "toppings"],
+    "string description" : "filling!!"
+}
+{
+    "name" : "cheese cake",
+    "ingredients" : ["milk", "ice", "cheese cream"],
+    "string description" : "whoa!!!"
+}
+{   "drinks" : ["soda", "ice-tea", "beer"]
+}
+{   "name" : ["dr. pepper", "coke", " hansens cherry vanilla"],
+    "ingredients" : ["carbonated water", "sugar", "special flavorings"],
+    "string descriotion" : "bubbly good"
+}
+{   "name" : ["ice teas"],
+    "ingredients" : ["jasmine", "grey", "green"],
+    "string description" : "whew!!!"
+}
+{   "name" : "beer",
+    "ingredients" : ["stellas", "heinny's","coors"],
+    "string description" : "have a nice cold one"
+}
+
+
+
+
+
+
+
+
+
+}

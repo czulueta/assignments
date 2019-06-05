@@ -1,0 +1,12 @@
+body{
+    background: rgb(75, 185, 236);
+}
+form{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+h1{
+    color: rgb(115, 36, 206);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12em;
+}

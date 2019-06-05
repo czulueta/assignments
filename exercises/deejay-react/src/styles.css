@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: #777;
+    display: flex;
+    flex-direction: column;
+}
+.square-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    background: #333;
+
+}
+button{
+    width: 25%;
+    height: 40pt;
+    border: sold #777;
+}
+.box{
+    background: white;
+    border: solid 2pt black;
+}
+/* .squareGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    background-color: rgb(67, 143, 230);
+   
+
+}
+.square1{
+    background: rgb(236, 236, 240);
+    height:200pt;
+    width:200pt;
+    margin-left:500pt;
+    margin-top: 100pt;
+    border-radius: 10px;
+
+}
+.square2{
+    background: rgb(236, 236, 240);
+    height:200pt;
+    width:200pt;
+    margin-top: 100pt;
+    
+}
+.square3{
+    background: rgb(236, 236, 240);
+    height:200pt;
+    width:200pt;
+    margin-left:500pt;
+}
+.square4{
+    background: rgb(236, 236, 240);
+    height:200pt;
+    width:200pt;
+} */

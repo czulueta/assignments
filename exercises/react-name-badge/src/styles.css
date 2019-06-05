@@ -1,0 +1,184 @@
+body{
+    background: rgb(192, 190, 190);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px  rgb(33, 77, 224);
+    height: 310px;
+    width: 50%;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 50px; 
+    border-radius: 12px; 
+    background: rgb(87, 215, 238); 
+   
+
+}
+.box{
+    order: initial;
+    align-content: space-between;
+}
+.fNameBox{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+.lNameBox{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+.email{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+.placeOfB{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+.phone{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+.fFood{
+    width: 310px;
+    height: 15px;
+    border: solid 2px  rgb(33, 77, 224);
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+}
+body{
+    background: rgb(219, 216, 216);
+}
+.comments{
+    height: 150px;
+    width: 650px;
+    margin-top: 18px;
+    margin-left: 25px;
+    border: solid 2px rgb(33, 77, 224);
+    border-radius: 5px;
+    text-align:center;
+    color:rgb(252, 107, 228);
+    font-size: 30px;
+    /* wrap: hard;  */
+}
+.submit{
+    margin-left: 310px;
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 90px;
+    color: blue;
+    border: solid 2px rgb(33, 77, 224);
+}
+.mappedContainer{
+    flex-direction: row;
+    border: solid 2px rgb(33, 77, 224);
+    height: 400px;
+    width: 751px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 12px;
+    background: rgb(87, 215, 238)
+   
+}
+.navbar{
+    /* width:100%;
+    height:8vh;
+    background: yellow;
+    border-radius: 12px; */
+    width: 100%;
+    height: 7vh;
+    background: yellow;
+    border-radius: 12px;
+    text-align: center;
+}
+.mBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35px 35px 35px 35px;
+}
+.mName{
+    border: solid 2px  yellow;
+    width: 310px;
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: yellow; 
+}
+.mEmail{
+    border: solid 2px  yellow;
+    width: 310px;
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: yellow;
+}
+.mPb{
+    border: solid 2px  yellow;
+    width: 310px;
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: yellow;
+}
+.mPhone{
+    border: solid 2px  yellow;
+    width: 310px;
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: yellow;
+}
+.mFood{
+    border: solid 2px  yellow;
+    width: 310px;
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: yellow;
+}
+.mCom{
+    border: solid 2px yellow;
+    height: 200px;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background: yellow;
+}
