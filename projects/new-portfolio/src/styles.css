@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.bigContainer {
+    width:100%;
+    min-height: 100vh;
+    font-family: "Cinzel",serif;
+}
+
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  825px 825px 825px 825px;
+    grid-template-areas:
+    " div1 div1 div1 "
+    " div2 div2 div2 "
+    " div3 div3 div3 "
+    " div4 div4 div4 ";
+    
+}
+
+.div1 {
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    grid-area: div1;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    font-family: "Cinzel",serif;
+    border: solid pink 2px;
+    animation-name: back;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+    
+    
+    
+}
+@keyframes back {
+    0% {background: black; opacity: 0;}
+    25% {background: black; opacity: 0;}
+    50% {background: black; opacity: 1;}
+    75% {background: black; opacity: 1;}
+    90% {background: black; opacity: 1;}
+    100% {  opacity: 1;}
+
+}
+.myName {
+    color: white;
+    font-size: 5vw;
+    font-family:'Cinzel', serif;
+    font-weight: lighter;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes name {
+    0% {background: black; opacity: 0;}
+    25% {background: black; opacity: 0;}
+    50% {background: black; opacity: 0;}
+    75% {background: black; opacity: .2;}
+    100% { opacity: 1;}
+}
+.myTitle {
+    color: white;
+    font-family: "Cinzel",serif;
+    font-weight: lighter;
+    
+}
+.jobTitle {
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.div1 {
+    border-color: black 2px;
+    grid-area: div1;
+
+    
+}
+.div2 {
+    border: solid black 2px;
+    grid-area: div2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+.res{
+    border: solid red 2px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.aboutTitle {
+    font-size: 40px;
+    text-align: center;
+}
+.about {
+    border: solid blue 2px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    border-radius:20px;
+    align-content: center;
+    align-items: center;
+    
+}
+.aboutIntro {
+    font-size: 30px;
+    margin-top: 70px;
+    
+}
+.projects {
+    border: solid green 2px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.div3 {
+    border: solid black 2px;
+    grid-area: div3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.div4 {
+    border: solid red 2px;
+    grid-area: div4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+
